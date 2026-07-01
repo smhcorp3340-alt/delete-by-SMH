@@ -2,7 +2,7 @@
 client.on("messageCreate", async (message) => {
     if (message.author.bot) return;
 
-    if (message.channel.id === "ID_DU_SALON") {
+    if (message.channel.id === "1519742136780587211") {
         setTimeout(() => {
             message.delete().catch(() => {});
         }, 60000); //
